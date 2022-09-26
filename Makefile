@@ -2,10 +2,10 @@ NAME	=	CORTEIZ
 
 CC = gcc
 
-SRC		=	source/main.c\
-			source/draw.c\
-			source/init.c\
-			source/input.c
+SRC		=	main.c\
+			draw.c\
+			init.c\
+			input.c
 
 OBJ 	=	$(SRC:.c=.o)
 
